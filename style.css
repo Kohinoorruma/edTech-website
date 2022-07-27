@@ -1,15 +1,41 @@
+.overlay {
+    filter: brightness(50%);
+}
+
+
 /* mobile device */
 @media only screen and (min-width: 576px) {
-    .carousel-indicators {
+    .three-lines {
         display: none;
     }
 
-    .carousel-control-prev {
+    .arrow {
         display: none;
     }
 
-    .carousel-control-next {
+    .arrow-two {
         display: none;
+    }
+
+
+    .fs-1 {
+        font-size: 25px !important;
+    }
+
+    .fs-4 {
+        font-size: 20px !important;
+    }
+
+    .fs-5 {
+        font-size: 18px !important;
+    }
+
+    .card-border {
+        width: 100%;
+    }
+
+    .paragraph-text {
+        padding: 0px 100px 0px 0px;
     }
 
 }
